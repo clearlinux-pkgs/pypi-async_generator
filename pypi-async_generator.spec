@@ -4,7 +4,7 @@
 #
 Name     : pypi-async_generator
 Version  : 1.10
-Release  : 14
+Release  : 15
 URL      : https://files.pythonhosted.org/packages/ce/b6/6fa6b3b598a03cba5e80f829e0dadbb49d7645f523d209b2fb7ea0bbb02a/async_generator-1.10.tar.gz
 Source0  : https://files.pythonhosted.org/packages/ce/b6/6fa6b3b598a03cba5e80f829e0dadbb49d7645f523d209b2fb7ea0bbb02a/async_generator-1.10.tar.gz
 Summary  : Async generators and context managers for Python 3.5+
@@ -14,6 +14,8 @@ Requires: pypi-async_generator-license = %{version}-%{release}
 Requires: pypi-async_generator-python = %{version}-%{release}
 Requires: pypi-async_generator-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
+Provides: async_generator
+
 
 %description
 .. image:: https://img.shields.io/badge/chat-join%20now-blue.svg
